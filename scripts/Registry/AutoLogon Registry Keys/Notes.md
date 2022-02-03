@@ -1,0 +1,1 @@
+Returns the values of the Widnows autologon registry keys.

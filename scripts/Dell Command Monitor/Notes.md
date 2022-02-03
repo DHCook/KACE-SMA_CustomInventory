@@ -1,0 +1,1 @@
+This collection is only compatible with Dell computers with Dell Command|Monitor installed 

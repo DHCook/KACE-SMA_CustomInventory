@@ -1,0 +1,1 @@
+Get-NetAdapter -Physical | Where-Object {$_.Status -eq 'Up'} | Select-Object -ExpandProperty LinkSpeed | Write-Host -NoNewline

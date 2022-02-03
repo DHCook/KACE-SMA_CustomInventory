@@ -1,0 +1,1 @@
+ShellCommandTextReturn(%windir%\sysnative\cmd.exe /c netsh.exe mbn show interfaces | find "Device Id") AND ShellCommandTextReturn(%windir%\sysnative\cmd.exe /c netsh.exe mbn show readyinfo * | findstr "SIM Telephone")

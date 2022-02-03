@@ -1,0 +1,1 @@
+Get-NetAdapter | Where-Object {$_.Status -eq "up"} | Get-NetIPInterface -AddressFamily IPv4 | Where-Object {$_.Dhcp -eq "Disabled"} | Get-DnsClientServerAddress -AddressFamily IPv4 | Select-Object -ExpandProperty ServerAddresses

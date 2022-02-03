@@ -1,0 +1,1 @@
+gwmi -n root\dcim\sysman DCIM_BIOSEnumeration -f {AttributeName='Wake-On-LAN'} | select -exp CurrentValue

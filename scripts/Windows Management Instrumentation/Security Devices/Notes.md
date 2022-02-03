@@ -1,0 +1,1 @@
+Query of Smart Card, Facial, Fingerprint, and NFC security devices/features available on the system. These devices could be used for Multi Factor or Passwordless Authentication.

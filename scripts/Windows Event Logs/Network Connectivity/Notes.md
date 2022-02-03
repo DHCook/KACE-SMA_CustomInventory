@@ -1,0 +1,1 @@
+Query Windows Event Log for network connections and disconnections.

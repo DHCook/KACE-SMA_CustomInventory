@@ -1,0 +1,1 @@
+RegistryValueEquals(HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\QualityCompat, cadca5fe-87d3-4b96-b7fb-a231484277cc, 0) OR RegistryValueEquals(HKEY_LOCAL_MACHINE64\SOFTWARE\Microsoft\Windows\CurrentVersion\QualityCompat, cadca5fe-87d3-4b96-b7fb-a231484277cc, 0)

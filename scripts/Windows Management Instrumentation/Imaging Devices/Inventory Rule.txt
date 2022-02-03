@@ -1,0 +1,1 @@
+ShellCommandTextReturn(PowerShell.exe -NoLogo -NoProfile -Command Get-PnpDevice -PresentOnly -Class Image | Where-Object {$_.Name -notlike "VMware*" -and $_.Name -notlike "*VDI*"} | Select-Object -ExpandProperty Name)

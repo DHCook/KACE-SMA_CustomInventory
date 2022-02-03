@@ -1,0 +1,1 @@
+For the active network interface, retreive the link speed.

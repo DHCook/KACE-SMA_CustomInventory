@@ -1,0 +1,2 @@
+$FormatEnumerationLimit=10
+gwmi -n root\dcim\sysman -q "Select AttributeName,PossibleValuesDescription,PossibleValues,CurrentValue from DCIM_BIOSEnumeration" | sort AttributeName | select AttributeName,PossibleValuesDescription,PossibleValues,CurrentValue | fl

@@ -1,0 +1,1 @@
+RegistryValueReturn(HKLMNAT\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon, Userinit, TEXT)

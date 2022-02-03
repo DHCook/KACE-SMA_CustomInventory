@@ -1,0 +1,1 @@
+ShellCommandNumberReturn(PowerShell.exe -NoLogo -NoProfile -Command "gwmi -Namespace root\dcim\sysman DCIM_BIOSEnumeration -Filter {AttributeName='Wake-On-LAN'} | select -ExpandProperty CurrentValue")

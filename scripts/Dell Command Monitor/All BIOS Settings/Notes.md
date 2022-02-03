@@ -1,0 +1,1 @@
+Query of all the BIOS settings of Dell computers using Dell Command | Monitor.

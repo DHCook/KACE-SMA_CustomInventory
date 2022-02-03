@@ -1,0 +1,1 @@
+Queries the BIOS of all Dell computers with Dell Command | Monitor installed to check if the Setup/Admin Password is set (Boolean).

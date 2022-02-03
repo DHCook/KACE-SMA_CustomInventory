@@ -1,0 +1,1 @@
+All devices connected to a computer that is catagorized as a Imaging Device such as scanners and cameras.
