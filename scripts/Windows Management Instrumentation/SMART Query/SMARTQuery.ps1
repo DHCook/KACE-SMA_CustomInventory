@@ -1,0 +1,1 @@
+Get-CimInstance -Namespace root/WMI -ClassName MSStorageDriver_FailurePredictStatus | Format-List Active,PredictFailure,Reason
