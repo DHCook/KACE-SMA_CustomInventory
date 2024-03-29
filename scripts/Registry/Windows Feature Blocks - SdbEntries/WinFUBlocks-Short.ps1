@@ -1,0 +1,1 @@
+if($s=(gp 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Appraiser\GWX' -ea si).SdbEntries){Write-Output $s}else{Out-Null}
